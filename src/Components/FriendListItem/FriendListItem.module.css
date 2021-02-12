@@ -1,0 +1,23 @@
+.item {
+  margin-right: 22px;
+  position: relative;
+}
+
+.status {
+  /* content: ''; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.avatar {
+  transition: all ease 0.2s;
+}
+.avatar:hover {
+  transform: scale(1.3) rotateZ(10deg);
+  /* transform: rotateZ(10deg); */
+  transition: all ease 0.2s;
+}
